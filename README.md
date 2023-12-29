@@ -1,7 +1,7 @@
 
 1)
 the project from githum
-run command in terminal/bash/cmd        git clone https://github.com/sardar-ali/Nextjs-Task.git
+run command in terminal/bash/cmd        https://github.com/sardar-ali/Nextjs-Task.git
 
 2)
 go to project directory
