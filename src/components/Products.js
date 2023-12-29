@@ -13,6 +13,7 @@ function Products({ products }) {
     const detailHandler = (id) => {
         router.push(`/product-details/${id}`)
     }
+    
     return (
         <>
             <div className='main-container'>

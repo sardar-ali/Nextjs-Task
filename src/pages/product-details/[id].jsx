@@ -15,7 +15,7 @@ function ProductDetailScreen({ product }) {
 
     return (
         <>
-            <ProductDetails />
+            <ProductDetails product={product} />
         </>
     )
 }
@@ -24,7 +24,7 @@ function ProductDetailScreen({ product }) {
 export async function getStaticPaths() {
     // Fetch product slugs at build time
     const response = await getProducts();
-    console.log("list api response ::", response)
+    // console.log("list api response ::", response)
     let paths = [];
     if (response?.data?.status) {
         paths = response?.data?.products?.map((itm) => {

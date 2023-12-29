@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProductDetails({ product}) {
+function ProductDetails({product}) {
     
     return (
         <div className='main-container'>
